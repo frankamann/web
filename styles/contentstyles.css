@@ -1,0 +1,45 @@
+#contentframewrap ul {
+	position: relative;
+	float:left;
+	clear: both;
+	display: block;
+	width: 100%;
+	line-height: 1.2;
+	margin: 2% 0 10% 0;
+	padding: 0;
+    list-style-type: none;
+}
+
+#contentframewrap li {
+	position: relative;
+	float: left;
+	clear: both;
+	width: 100%;
+	display: block;
+	margin: 0px;
+	padding: 0 0 20px 0;
+    /*border-bottom: 1px solid #FFFFFF;*/
+}
+
+#contentframewrap li::after {
+	background: url('../grafiks/grafiks-sprite.png') -80px -1198px no-repeat;
+}
+ 
+sup,
+sub {
+	vertical-align: inherit;
+	font-size: 90%;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+sup {
+	margin: 0 0 10px 0;
+}
+
+sub {
+	font-size: 90%;
+	font-weight: 200;
+	font-style: italic;
+	text-transform: none;
+}

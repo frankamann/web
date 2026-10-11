@@ -1,0 +1,71 @@
+
+
+@-webkit-keyframes fadein {
+	0% { opacity: 0; }
+	100% { opacity: 100; }
+}
+
+@-moz-keyframes fadein {
+	0% { opacity: 0; }
+	100% { opacity: 100; }
+}
+
+@-ms-keyframes fadein {
+	0% { opacity: 0; }
+	100% { opacity: 100; }
+}
+
+@keyframes fadein {
+	0% { opacity: 0; }
+	100% { opacity: 100; }
+}
+
+/********************** *****************************************/
+
+#logo,
+ul#mainnavi,
+footer,
+#siteouterwrap,
+#contentframewrap  {	
+	animation-name: fadein;
+	-webkit-animation-name: fadein;
+	-moz-animation-name: fadein;
+	-ms-animation-name: fadein;
+	
+	animation-duration: 1.3s;
+	-webkit-animation-duration: 1.3s;
+	-moz-animation-duration: 1.3s;
+	-ms-animation-duration: 1.3s;
+	
+	animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
+	-moz-animation-iteration-count: 1;
+	-ms-animation-iteration-count: 1;
+	
+	animation-timing-function: ease-in;
+	-webkit-animation-timing-function: ease-in;
+	-moz-animation-timing-function: ease-in;
+	-ms-animation-timing-function: ease-in;
+}
+
+#logo  {	
+	animation-duration: 0.5s;
+	-webkit-animation-duration: 0.5s;
+	-moz-animation-duration: 0.5s;
+	-ms-animation-duration: 0.5s;
+}
+
+
+#siteouterwrap  {	
+	animation-duration: 1.5s;
+	-webkit-animation-duration: 1.5s;
+	-moz-animation-duration: 1.5s;
+	-ms-animation-duration: 1.5s;
+}
+
+#contentframewrap  {	
+	animation-duration: 2s;
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-ms-animation-duration: 2s;
+}
